@@ -5,7 +5,7 @@
 ### San Francisco State University
 
 ![Course](https://img.shields.io/badge/CSC-413-253B80?style=for-the-badge)
-![Section](https://img.shields.io/badge/05-8C1D40?style=for-the-badge)
+![Section](https://img.shields.io/badge/Section-05-8C1D40?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Modern-Software_Development-4C78A8?style=for-the-badge)
 
 <br>
