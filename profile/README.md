@@ -1,13 +1,14 @@
+<div align="center">
+
 # CSC413 · Software Development
 
-<p align="center">
+### San Francisco State University
 
 ![Course](https://img.shields.io/badge/CSC-413-253B80?style=for-the-badge)
-![Section](https://img.shields.io/badge/05-8C1D40?style=for-the-badge)
+![Semester](https://img.shields.io/badge/Fall-2026-8C1D40?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Modern-Software_Development-4C78A8?style=for-the-badge)
 
-</p>
-
-<p align="center">
+<br>
 
 ![Java](https://img.shields.io/badge/Java-21-E76F00?style=flat-square&logo=openjdk&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
@@ -16,143 +17,111 @@
 ![GitHub](https://img.shields.io/badge/GitHub-Development-181717?style=flat-square&logo=github&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit-5-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![PlantUML](https://img.shields.io/badge/PlantUML-UML-3E4E88?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-Codex-000000?style=flat-square&logo=openai&logoColor=white)
 
-</p>
+</div>
 
-<p align="center">
+---
 
-![Object Oriented Design](https://img.shields.io/badge/Object--Oriented-Design-4C78A8?style=flat-square)
-![Design Patterns](https://img.shields.io/badge/Design-Patterns-F2A541?style=flat-square)
-![Software Architecture](https://img.shields.io/badge/Software-Architecture-5B8C5A?style=flat-square)
-![AI Assisted Development](https://img.shields.io/badge/AI--Assisted-Development-7B61FF?style=flat-square)
-![OpenAI Codex](https://img.shields.io/badge/OpenAI-Codex-000000?style=flat-square&logo=openai&logoColor=white)
+## Software Development for the Modern Engineering Environment
 
-</p>
+CSC413 is an object-oriented software development course built around the way modern software is designed, developed, reviewed, tested, and evolved.
 
-Welcome to the GitHub organization for CSC413 · Software Development at San Francisco State University.
+Students work with Java and professional development tooling while learning the engineering foundations behind maintainable software systems: requirements, domain modeling, object-oriented design, design patterns, refactoring, architecture, testing, documentation, and version control.
 
-CSC413 introduces students to object-oriented software development using Java, with an emphasis on software design, maintainability, architecture, testing, version control, and modern software-engineering workflows.
+AI-assisted development is integrated into this environment as an engineering tool. Students learn to work with OpenAI Codex within a disciplined development process while retaining responsibility for engineering decisions, software quality, verification, and the final product.
 
-The course is intentionally designed around contemporary industry practice, including disciplined AI-assisted development. Students learn how tools such as OpenAI Codex can participate in implementation, review, debugging, verification, documentation, and repository workflows while human engineers remain responsible for requirements, design decisions, testing, evaluation, and the final software.
+## Engineering Focus
 
-Welcome to the GitHub organization for CSC413 · Software Development at San Francisco State University.
+![Object-Oriented Design](https://img.shields.io/badge/Object--Oriented_Design-4C78A8?style=flat-square)
+![Design Patterns](https://img.shields.io/badge/Design_Patterns-F2A541?style=flat-square)
+![Architecture](https://img.shields.io/badge/Software_Architecture-5B8C5A?style=flat-square)
+![Testing](https://img.shields.io/badge/Software_Testing-2F855A?style=flat-square)
+![Git](https://img.shields.io/badge/Version_Control-Professional_Workflow-6B7280?style=flat-square)
+![AI](https://img.shields.io/badge/AI--Assisted_Development-Engineering_Workflow-7B61FF?style=flat-square)
 
-CSC413 introduces students to object-oriented software development using Java, with an emphasis on software design, maintainability, architecture, testing, version control, and modern software-engineering workflows.
+The course emphasizes engineering judgment rather than framework-specific development. Students learn how responsibilities, abstractions, relationships, patterns, architecture, and quality practices fit together as a software system evolves.
 
-The course is intentionally designed around contemporary industry practice, including disciplined AI-assisted development. Students learn how tools such as OpenAI Codex can participate in implementation, review, debugging, verification, documentation, and repository workflows while human engineers remain responsible for requirements, design decisions, testing, evaluation, and the final software.
+## One Product · One Semester
 
-## Course Repositories
+Each student designs and develops an individual software product throughout the semester.
 
-This organization uses separate repositories with distinct responsibilities.
+The project begins with requirements and an initial domain model, then evolves as new software engineering concepts are introduced. Students continuously revisit their design, implementation, tests, documentation, and repository history instead of completing disconnected programming assignments.
 
-| Repository | Purpose |
-|---|---|
-| `course-content` | Student-facing instructional material, progressively released Workshops, the Marketplace reference application, resources, and the syllabus. |
-| `project-template` | Starting structure from which each student creates an individual semester repository. Includes student project governance and repository scaffolding. |
-| `course-materials` | Private instructor-only repository containing reference implementations, Workshop sources, solutions, exams, and other protected course material. |
-| Student repositories | Individual semester projects where students perform their actual requirements, design, implementation, testing, documentation, and Workshop work. |
+The result is an appropriately scoped software application or prototype whose evolution demonstrates the student's engineering decisions throughout the semester.
 
-## How the Course Works
+## AI-Assisted Engineering
 
-Students develop one software product throughout the semester rather than completing a sequence of unrelated programming assignments.
+CSC413 treats AI assistance as part of contemporary software development, not as a replacement for software engineering knowledge.
 
-Each stage builds on the previous one:
+OpenAI Codex is integrated into the development environment for permitted implementation assistance, engineering review, debugging, documentation synchronization, verification, and selected repository operations.
 
-```text
-requirements
-    ↓
-domain modeling
-    ↓
-classes and objects
-    ↓
-object relationships
-    ↓
-inheritance
-    ↓
-polymorphism and interfaces
-    ↓
-design evaluation
-    ↓
-design patterns
-    ↓
-refactoring and SOLID
-    ↓
-software architecture and MVC
-    ↓
-testing, documentation, and evolution
-```
-
-The instructor develops a Marketplace application during class as a common reference. Students inspect how Marketplace evolves and then apply the same engineering concepts to their own independently designed projects.
-
-Marketplace is a teaching reference, not a student project template.
-
-## AI-Assisted Software Development
-
-CSC413 treats AI assistance as part of a modern software-development workflow rather than as a replacement for software-engineering knowledge.
-
-Workshop 00 establishes and verifies the approved OpenAI Codex environment.
-
-Beginning with Workshop 01, students may complete Workshops through either:
-
-- the Codex-Assisted Path; or
-- the Manual Path.
-
-Both paths require the same engineering work, learning objectives, testing, artifacts, Git checkpoints, and grading standards.
-
-When Codex is used, students remain responsible for understanding and evaluating its recommendations. AI does not make the student's engineering decisions.
-
-The course follows a simple principle:
-
-```text
-human engineering decision
-        ↓
-permitted AI assistance
-        ↓
-human inspection and evaluation
-        ↓
-testing and verification
-        ↓
-accountable final result
-```
-
-## Student Engineering Ownership
-
-Students are responsible for the software they build.
-
-This includes:
+Students remain responsible for:
 
 - requirements and product intent;
 - domain and responsibility decisions;
 - object-oriented design;
-- design-pattern selection;
-- architectural decisions;
-- evaluation of engineering-review findings;
+- design-pattern and architecture decisions;
+- evaluating engineering recommendations;
 - testing and debugging;
-- verification of AI-assisted work;
-- and the ability to explain and defend the final implementation.
+- verifying AI-assisted work;
+- understanding the resulting implementation;
+- and defending their final engineering decisions.
 
-## Development Environment
+Beginning with Workshop 01, students may work through either the Codex-Assisted Path or the Manual Path. Both operate under the same engineering standards, project requirements, testing expectations, Git checkpoints, and grading criteria.
 
-CSC413 uses a modern Java development environment built around:
+## Marketplace Reference Application
 
-- Java 21
-- IntelliJ IDEA
-- Maven Wrapper
-- Git and GitHub
-- PlantUML
-- JUnit Jupiter
-- OpenAI Codex
+Marketplace is the shared reference application developed by the instructor throughout the semester.
 
-## Repository Access
+It evolves alongside the course and demonstrates how changing requirements and design pressures influence object relationships, inheritance, polymorphism, design patterns, refactoring, architecture, testing, and software evolution.
 
-Repository access is intentionally separated by role.
+Marketplace is an instructional reference rather than a student project template. Students apply the engineering concepts demonstrated through Marketplace to their own independently designed products.
 
-Students receive access only to the repositories and project resources required for their work.
+## Organization
 
-Instructor-only reference material, solutions, exams, and protected course resources remain private.
+| Repository | Role |
+| --- | --- |
+| `course-content` | Student-facing modules, progressively released Workshops, Marketplace, resources, and the official syllabus |
+| `project-template` | Starting structure and governance for individual semester project repositories |
+| `course-materials` | Private instructor material, reference implementations, Workshop sources, solutions, exams, and protected course resources |
+| Student repositories | Individual software products containing requirements, design, implementation, tests, documentation, and project evolution |
 
-## Fall 2026
+Repository access is separated by responsibility. Instructor-only materials remain private, while students receive access to the instructional content and project resources required for their work.
 
-The Fall 2026 version of CSC413 is organized around an evolving individual software project, in-class Workshops, modern software-engineering practices, and disciplined AI integration.
+## Technology
 
-For official course policies, grading, schedules, and requirements, consult the current CSC413 syllabus and student-facing `course-content` repository.
+| Area | Technology |
+| --- | --- |
+| Language | Java 21 |
+| Development | IntelliJ IDEA |
+| Build | Maven Wrapper |
+| Version Control | Git + GitHub |
+| Modeling | UML + PlantUML |
+| Testing | Cumulative behavioral testing + JUnit Jupiter |
+| AI-Assisted Development | OpenAI Codex |
+
+## Engineering Principles
+
+CSC413 is built around a small set of principles that remain applicable beyond Java or any individual development tool:
+
+- engineers own requirements and design decisions;
+- abstractions should exist for a reason;
+- software design evolves as requirements and responsibilities become clearer;
+- patterns solve design problems rather than decorate code;
+- tests provide evidence about behavior;
+- Git history should communicate software evolution;
+- AI recommendations must be inspected rather than accepted automatically;
+- and developers remain accountable for the software they deliver.
+
+---
+
+<div align="center">
+
+### CSC413 · Software Development
+
+Object-Oriented Design · Design Patterns · Architecture · Testing · AI-Assisted Engineering
+
+San Francisco State University · Department of Computer Science
+
+</div>
