@@ -118,7 +118,7 @@ CSC413 is built around a small set of principles that remain applicable beyond J
 
 <div align="center">
 
-### CSC413 · Software Development
+### CSC413.05 · Software Development
 
 Object-Oriented Design · Design Patterns · Architecture · Testing · AI-Assisted Engineering
 
